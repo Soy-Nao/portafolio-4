@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Portafolio</title>
+  </head>
+  <body>
+    <div class="todo">
+      <hedader class="header">
+        <nav class="nav" id="nav">
+          <input type="checkbox" id="btn-menu" />
+          <label for="btn-menu">
+            <img src="./assets/img/menu.svg" alt="" class="nav-icono" />
+          </label>
+
+          <ul class="nav-menu">
+            <li class="nav-item">
+              <a id="inicio" href="#inicio">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#acercaDeMi">Acerca de mí</a>
+            </li>
+            <li class="nav-item">
+              <a href="servicios">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Mis habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Mi portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+
+        <section class="header-information">
+          <div class="img-perfil">
+            <img src="./assets/img/Nao.png" alt="" />
+          </div>
+          <div class="header-text">
+            <p class="text-soy">Soy</p>
+            <div class="separador1"></div>
+            <h1 class="text-acent-titulo">Nao</h1>
+            <div class="separador2"></div>
+            <p class="text-profesion">Marketing y diseñador UX/UI</p>
+            <br />
+            <div class="centrar-experiencia">
+              <p class="text-experiencia">
+                <spam class="text-acent">3 años</spam> experiencia
+              </p>
+            </div>
+
+            <div class="contenedor-icon">
+              <div class="icon-fondo">
+                <img src="./assets/img/linkedin.svg" alt="" />
+              </div>
+              <div class="icon-fondo">
+                <img src="./assets/img/instagram.svg" alt="" />
+              </div>
+              <div class="icon-fondo">
+                <img src="./assets/img/twitter.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="work">
+          <div class="icon-fondo-work">
+            <div class="icon-work">
+              <img src="./assets/img/google.svg" alt="" />
+            </div>
+            <div class="icon-work">
+              <img src="./assets/img/amazon.svg" alt="" />
+            </div>
+            <div class="icon-work">
+              <img src="./assets/img/spotify.svg" alt="" />
+            </div>
+          </div>
+        </section>
+      </hedader>
+
+      <main>
+        <section class="section-about" id="acercaDeMi">
+          <h2>Acerca de mí</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse
+            debitis amet necessitatibus doloremque id quasi iste itaque
+            reiciendis, ut porro doloribus vitae officiis non! Recusandae ab est
+            id. Placeat quo, eligendi porro omnis maiores, rerum voluptatibus,
+            qui praesentium quod nihil quis hic. Saepe provident delectus quod
+            itaque non, rerum veniam.
+          </p>
+        </section>
+
+        <section class="servicios" id="servicios">
+          <h2>Servicios</h2>
+          <div class="carrusel">
+            <div id="i1" class="carrusel-badground">
+              <div class="carrusel-fondo">
+                <img src="./assets/img/fondo-carrusel/Ellipse 14.svg" alt="" />
+              </div>
+              <div class="carrusel-contenido">
+                <img src="./assets/img/servicios/pencil.svg" alt="" />
+                <h3>UX/UI Desing</h3>
+                <p>Desde diseño hasta implementación del desarrollo.</p>
+              </div>
+            </div>
+
+            <div id="i2" class="carrusel-badground">
+              <div class="carrusel-fondo">
+                <img src="./assets/img/fondo-carrusel/Ellipse 14.svg" alt="" />
+              </div>
+              <div class="carrusel-contenido">
+                <img src="./assets/img/servicios/speaker.svg" alt="" />
+                <h3>Marketing</h3>
+                <p>Desde diseño hasta implementación del desarrollo.</p>
+              </div>
+            </div>
+
+            <div id="i3" class="carrusel-badground">
+              <div class="carrusel-fondo">
+                <img src="./assets/img/fondo-carrusel/Ellipse 14.svg" alt="" />
+              </div>
+              <div class="carrusel-contenido">
+                <img src="./assets/img/servicios/search.svg" alt="" />
+                <h3>Research</h3>
+                <p>Desde diseño hasta implementación del desarrollo.</p>
+              </div>
+            </div>
+          </div>
+          <!--Creamos los botones laterales-->
+          <a class="anterior" href="#i1"> <span><</span></a>
+          <a class="siguiente" href="#i3"> <span>></span></a>
+        </section>
+
+        <section class="habilidades">
+          <h2>Mis habilidades</h2>
+          <div class="contenedor-habilidades">
+            <div class="horizontal">
+              <span class="habilidad">Marketing</span>
+              <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra-fondo">
+              <div class="barracolor marketing"></div>
+            </div>
+            <div class="horizontal">
+              <span class="habilidad">UI Desing</span>
+              <span class="porcentaje">95%</span>
+            </div>
+            <div class="barra-fondo">
+              <div class="barracolor uidesing"></div>
+            </div>
+            <div class="horizontal">
+              <span class="habilidad">UX Research</span>
+              <span class="porcentaje">80%</span>
+            </div>
+
+            <div class="barra-fondo">
+              <div class="barracolor uxresearch"></div>
+            </div>
+          </div>
+        </section>
+
+        <section class="portafolio">
+          <h2>Mi portafolio</h2>
+          <div class="imagenes">
+            <img src="./assets/img/Logos-imagenes/ejemplo5.jpg" alt="" />
+            <img src="./assets/img/Logos-imagenes/ejemplo2.jpg" alt="" />
+            <img src="./assets/img/Logos-imagenes/ejemplo3.jpg" alt="" />
+            <img src="./assets/img/Logos-imagenes/ejemplo1.jpg" alt="" />
+          </div>
+          <a class="anterior" href=""> <span><</span></a>
+          <a class="siguiente" href=""> <span>></span></a>
+        </section>
+      </main>
+
+      <footer>
+        <section>
+          <div class="contacto">
+            <h2>Contacto</h2>
+            <div class="contacto-contenido">
+              <div class="contacto-fondo">
+                <img src="./assets/img/fondo-carrusel/Ellipse 14.svg" alt="" />
+                <div class="inf">
+                  <img class="subir" src="./assets/img/íconos/phone.svg" alt="" />
+                  <h3 class="titu">Número celular</h3>
+                  <span class="numero">5523652412</span>
+                </div>
+              </div>
+              <div class="contacto-fondo">
+                <img src="./assets/img/fondo-carrusel/Ellipse 14.svg" alt="" />
+                <div class="inf">
+                  <img class="subir" src="./assets/img/íconos/mail.svg" alt="" />
+                  <h3 class="titu">Email</h3>
+                  <span class="correo">ejemplo@correo.com</span>
+                </div>
+              </div>
+            </div>
+            <p class="end">Hecho con ❤️ en Academlo</p>
+          </div>
+        </section>
+      </footer>
+    </div>
+  </body>
+</html>
